@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="danie"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-06 04:52:22 p. m."/>
+        <attribute name="created" value="ZGFuaWU7TEFQVE9QLVNNVlVFS0dTOzIwMjQtMDMtMDY7MDQ6NDM6NTggcC4gbS47MzEyNA=="/>
+        <attribute name="edited" value="ZGFuaWU7TEFQVE9QLVNNVlVFS0dTOzIwMjQtMDMtMDY7MDQ6NTI6MjIgcC4gbS47MTszMjIz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="calif" type="Real" array="False" size=""/>
+            <output expression="&quot;introduce una caificacion:&quot;" newline="True"/>
+            <input variable="calif"/>
+            <if expression="calif &gt;= 70">
+                <then>
+                    <output expression="&quot;Acreditaste&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Mas suerte para la proxima&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
